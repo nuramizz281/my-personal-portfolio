@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio of a Network Computing student at UNIMAS.">
+
+    <title>My Portfolio | Network Computing</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">MyPortfolio.</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+<button class="theme-toggle" id="themeToggle"
+    aria-label="Switch to dark mode">
+    🌙
+</button>
+           <button class="menu-toggle" id="menuToggle"
+    aria-label="Open navigation menu"
+    aria-expanded="false">
+    ☰
+</button>
+
+        </nav>
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+
+        <div class="home-content">
+
+            <p class="intro">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>NUR AMIRAH IZZATI</span></h1>
+
+            <h2>
+                I'm a <span id="typing-text">Network Computing Student</span>
+            </h2>
+
+            <p class="home-description">
+                I am a Computer Science student passionate about
+                technology, networking, cybersecurity and continuous
+                learning. Welcome to my personal portfolio where
+                you can explore my journey, skills and projects.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn">Explore My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+
+        <div class="section-heading">
+            <p>WHAT I HAVE WORKED ON</p>
+            <h2>My Projects</h2>
+            <p>
+                A collection of my academic projects and technical work.
+            </p>
+        </div>
+<div class="project-filters">
+
+    <button class="filter-btn active" data-filter="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-filter="database">
+        Database
+    </button>
+
+    <button class="filter-btn" data-filter="networking">
+        Networking
+    </button>
+
+    <button class="filter-btn" data-filter="development">
+        Development
+    </button>
+
+    <button class="filter-btn" data-filter="security">
+        Security
+    </button>
+
+</div>
+        <div class="project-container">
+
+    <div class="project-card" data-category="database">
+        <h3>Database Management System</h3>
+        <p>Academic Database Project</p>
+        <p>
+            Exploring database design, data organisation
+            and SQL operations for managing structured information.
+        </p>
+        <span>SQL | MariaDB | Database Design</span>
+    </div>
+
+    <div class="project-card" data-category="networking">
+        <h3>Computer Networking</h3>
+        <p>Network Simulation Project</p>
+        <p>
+            Exploring network topologies, device configuration
+            and connectivity through network simulation.
+        </p>
+        <span>Cisco Packet Tracer | Networking</span>
+    </div>
+
+    <div class="project-card" data-category="development">
+        <h3>Round Robin CPU Scheduling</h3>
+        <p>Operating System Project</p>
+        <p>
+            Exploring process scheduling using the Round Robin
+            algorithm and understanding CPU scheduling concepts.
+        </p>
+        <span>C++ | Operating System</span>
+    </div>
+
+    <div class="project-card" data-category="development">
+        <h3>Electric Vehicle Dashboard</h3>
+        <p>Human-Computer Interaction Project</p>
+        <p>
+            Designing a user interface concept for an electric
+            vehicle dashboard with a focus on usability.
+        </p>
+        <span>HCI | UI/UX Design</span>
+    </div>
+
+    <div class="project-card" data-category="security">
+        <h3>Computer Security Study</h3>
+        <p>Academic Security Project</p>
+        <p>
+            Exploring fundamental computer security concepts,
+            common threats and information protection principles.
+        </p>
+        <span>Computer Security | Cybersecurity</span>
+    </div>
+
+</div>
+
+    </section>
+
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about">
+
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <h3>A Little About Myself</h3>
+
+                <p>
+                    I am currently pursuing a Bachelor of Computer
+                    Science (Network Computing with Honours) at
+                    Universiti Malaysia Sarawak (UNIMAS).
+                </p>
+
+                <p>
+                    I am interested in computer networking,
+                    cybersecurity and information technology.
+                    I enjoy exploring new technologies, developing
+                    my technical abilities and gaining experience
+                    through academic and extracurricular activities.
+                </p>
+
+                <h3>My Education</h3>
+
+                <p>
+                    <strong>Universiti Malaysia Sarawak (UNIMAS)</strong>
+                    <br>
+                    Bachelor of Computer Science
+                    (Network Computing with Honours)
+                </p>
+
+            </div>
+
+
+            <div class="skills">
+
+                <h3>Technical Skills</h3>
+
+                <div class="skill-list">
+                    <span>C++</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                    <span>Computer Networking</span>
+                    <span>Cybersecurity</span>
+                    <span>Database Management</span>
+                </div>
+
+                <h3>Areas of Interest</h3>
+
+                <div class="skill-list">
+                    <span>Network Computing</span>
+                    <span>Cloud Computing</span>
+                    <span>Cybersecurity</span>
+                    <span>Leadership</span>
+                    <span>Technology</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- EXPERIENCE -->
+        <div class="experience">
+
+            <h3>Leadership & Experiences</h3>
+
+            <div class="experience-card">
+                <h4>Exco Program NC (Academic)</h4>
+                <p>PERTEKMA, UNIMAS</p>
+            </div>
+
+            <div class="experience-card">
+                <h4>Jawatankuasa Perwakilan Fakulti (JPF)</h4>
+                <p>PERTEKMA, Faculty of Computer Science and Information Technology</p>
+            </div>
+
+            <div class="experience-card">
+                <h4>Google Gemini Ambassador</h4>
+                <p>Universiti Malaysia Sarawak</p>
+            </div>
+
+            <div class="experience-card">
+                <h4>Deputy Director – Dean's Award Ceremony</h4>
+                <p>Faculty of Computer Science and Information Technology</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+
+        <div class="section-heading">
+            <p>LET'S CONNECT</p>
+            <h2>Contact Me</h2>
+
+            <p>
+                Feel free to reach out if you would like to
+                connect, collaborate or discuss opportunities.
+            </p>
+        </div>
+
+        <div class="contact-content">
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:nuramirahizzati281@gmail.com">
+                    nuramirahizzati281@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    My GitHub Profile
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                    rel="noopener noreferrer">
+                    My LinkedIn Profile
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 NUR AMIRAH IZZATI. All Rights Reserved.
+        </p>
+
+        <a href="#home">Back to Top ↑</a>
+
+    </footer>
+
+
+    <!-- CONNECT JAVASCRIPT -->
+    <script src="script.js"></script>
+    <button id="backToTop" class="back-to-top"
+    aria-label="Back to top">
+    ↑
+</button>
+
+</body>
+
+</html>
